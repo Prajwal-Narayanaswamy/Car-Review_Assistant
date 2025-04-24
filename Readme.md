@@ -6,11 +6,8 @@
 
 ## 🚀 Features
 
--   Load and process car review datasets
--   Perform text-based sentiment analysis (optional)
--   Visualize data trends and key metrics
--   Extract useful insights and generate summaries
--   User-friendly structure for customization and extension
+-  Gives the answers almost instantly
+-  Only answers questions about car and car reviews
 
 ## 🛠️ Installation
 
