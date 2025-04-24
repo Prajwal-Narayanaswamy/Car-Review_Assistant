@@ -1,0 +1,12 @@
+langchain
+langchain-ollama
+langchain-chroma
+pandas
+chromadb
+langchain-community
+langchain_core
+langchain_text_splitters
+tqdm
+streamlit
+dotenv
+langchain_openai

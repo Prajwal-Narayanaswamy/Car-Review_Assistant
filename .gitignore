@@ -1,0 +1,4 @@
+.env
+chroma_langchain_db
+venv
+review_data.csv
