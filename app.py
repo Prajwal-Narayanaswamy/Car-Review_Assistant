@@ -12,7 +12,7 @@ model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
 # Natural prompt for friendly answers
 template = """
-You are a professional car reviewer who has read and analyzed thousands of customer reviews.
+You are a professional car reviewer who has read and analyzed hundreds of thousands of customer reviews.
 
 You must only answer questions related to cars, car models, reliability, performance, features, comparisons, or any topic directly connected to car reviews.
 
@@ -42,7 +42,7 @@ st.title("🚗 Car Review Q&A Assistant")
 st.markdown("Ask a question based on thousands of real car reviews!")
 
 # Load vectorstore and retriever
-with st.spinner("Searching for reviews"):
+with st.spinner("Loading.."):
     vectorstore = setup_vectorstore()
     retriever = get_retriever(vectorstore, k=10)
 
